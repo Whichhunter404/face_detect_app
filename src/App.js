@@ -13,17 +13,17 @@ import './App.css';
 const particlesOptions = {
     polygon: {
         number: {
-          value: 30,
+          value: 100,
           density: {
               enable: true,
-              value_area: 800
+              value_area: 50
           }
         },
 
         enable: false,
         type: 'inside',
         move: {
-            radius: 20
+            radius: 1
         },
         url: 'path/to/svg.svg'
     }
@@ -107,23 +107,23 @@ class App extends Component{
     }
     onRouteChange = (route) =>{
         if(route === 'home'){
-            this.setState({signin:true})
+            this.setState({signin:true,route:route})
         }
         else if(route==='signin'||route==='register'){
-            this.setState({signin:false})
+            this.setState({signin:false,route:route})
         }
         this.setState({route : route})
     }
 
     render() {
-        const {signin,box,input_img} = this.state;
+        const {signin,box,input_img,route,user} = this.state;
         switch (this.state.route) {
             case 'register':
                 return (
                     <div className="App">
                         <Particles className={'particles'} params={particlesOptions}
                                    style={{width: '100%', height: '100%'}}/>
-                        <Navigation onRouteChange={this.onRouteChange} signin={signin}/>
+                        <Navigation onRouteChange={this.onRouteChange} signin={signin} route={route}/>
                         <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
                     </div>
                 );
@@ -132,7 +132,7 @@ class App extends Component{
                     <div className="App">
                         <Particles className={'particles'} params={particlesOptions}
                                    style={{width: '100%', height: '100%'}}/>
-                        <Navigation onRouteChange={this.onRouteChange} signin={signin}/>
+                        <Navigation onRouteChange={this.onRouteChange} signin={signin} route={route}/>
                         <Signin onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
                     </div>);
             case 'home':
@@ -140,9 +140,9 @@ class App extends Component{
                     <div>
                         <Particles className={'particles'} params={particlesOptions}
                                    style={{width: '100%', height: '100%'}}/>
-                        <Navigation onRouteChange={this.onRouteChange} signin={signin}/>
+                        <Navigation onRouteChange={this.onRouteChange} signin={signin} route={route}/>
                         < Logo/>
-                        < Rank name={this.state.user.name} entries={this.state.entries}/>
+                        < Rank user={user}/>
                         < ImageLinkForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit}/>
                         <FaceRecognition input={input_img} box={box}/>
                     </div>

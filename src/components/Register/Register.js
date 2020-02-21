@@ -19,7 +19,7 @@ class Register extends Component {
         this.setState({registerName:event.target.value});
     }
     onSubmitForm = (event) => {
-        fetch('http://localhost:3000/register',{
+        fetch(process.env.REACT_APP_SERVER_URL+'/register',{
             method: 'post',
             headers: {'Content-type':'application/json'},
             body: JSON.stringify({
@@ -34,7 +34,7 @@ class Register extends Component {
                     this.props.onRouteChange('home');
                 }
             }
-        )
+        ).catch(error =>console.log(error))
     }
     render() {
         return(

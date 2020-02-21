@@ -31,7 +31,7 @@ const particlesOptions = {
 };
 
 const app = new Clarifai.App({
-    apiKey: '60c258f2af6a400a8790adb40b77b662'
+    apiKey: process.env.REACT_APP_CLARIFAI_API_KEY
 });
 
 class App extends Component{
@@ -52,7 +52,7 @@ class App extends Component{
         }
     }
     componentDidMount() {
-        fetch('http://localhost:3000/').then(res=>
+        fetch(process.env.REACT_APP_SERVER_URL).then(res=>
             res.json()).then(users => console.log(users));
     }
 
@@ -93,7 +93,7 @@ class App extends Component{
                 this.displayFaceBox(this.calculateFaceLocation(response))).catch(
           err=>console.log(err)
         )
-        fetch('http://localhost:3000/image',{
+        fetch(process.env.REACT_APP_SERVER_URL+'/image',{
             method:'put',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify({

@@ -19,7 +19,7 @@ class Register extends Component {
         this.setState({registerName:event.target.value});
     }
     onSubmitForm = (event) => {
-        fetch(process.env.REACT_APP_SERVER_URL+'/register',{
+        fetch(process.env.REACT_APP_SERVER_URL.concat('/register'),{
             method: 'post',
             headers: {'Content-type':'application/json'},
             body: JSON.stringify({

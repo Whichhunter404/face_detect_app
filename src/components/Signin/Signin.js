@@ -16,7 +16,7 @@ class Signin extends Component{
   }
   onSubmitSignIn = () =>{
       console.log(this.state);
-      fetch(process.env.REACT_APP_SERVER_URL+'/signin',{
+      fetch(process.env.REACT_APP_SERVER_URL.concat('/signin'),{
           method: 'post',
           headers: {'Content-Type':'application/json'},
           body: JSON.stringify({

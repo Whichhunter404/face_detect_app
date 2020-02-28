@@ -52,8 +52,8 @@ class App extends Component{
         }
     }
     componentDidMount() {
-        fetch(process.env.REACT_APP_SERVER_URL).then(res=>
-            res.json()).then(users => console.log(users));
+        /*fetch(process.env.REACT_APP_SERVER_URL).then(res=>
+            res.json()).then(users => console.log(users));*/
     }
 
     loadUser = (user) => {
@@ -67,7 +67,6 @@ class App extends Component{
     }
 
     onInputChange = (event)=>{
-        console.log(event.target.value)
         this.setState({input_img: event.target.value})
     }
     calculateFaceLocation = (data) =>{

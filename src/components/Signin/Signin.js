@@ -15,7 +15,6 @@ class Signin extends Component{
         this.setState({signInPassword: event.target.value})
   }
   onSubmitSignIn = () =>{
-      console.log(this.state);
       fetch(process.env.REACT_APP_SERVER_URL+'/signin',{
           method: 'POST',
           headers: {'Content-Type':'application/json'},
@@ -25,7 +24,7 @@ class Signin extends Component{
           })
       }).then(response=> response.json())
           .then(user => {
-             if(user.status===200){
+             if(user){
                  this.props.loadUser(user);
                  this.props.onRouteChange('home');
              }

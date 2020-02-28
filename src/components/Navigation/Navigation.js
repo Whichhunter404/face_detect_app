@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Navigation = ({onRouteChange,signin,route}) => {
-    console.log('route from navigation',route);
     if(signin===true) {
         return (
             <nav style={{display: 'flex', justifyContent: 'flex-end'}}>

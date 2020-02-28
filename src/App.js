@@ -92,7 +92,7 @@ class App extends Component{
                 this.displayFaceBox(this.calculateFaceLocation(response))).catch(
         );
         fetch(process.env.REACT_APP_SERVER_URL.concat('/image'),{
-            method:'put',
+            method:'PUT',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify({
                 id: this.state.user.id

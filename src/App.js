@@ -87,24 +87,33 @@ class App extends Component{
     }
 
     onButtonSubmit = () =>{
-        app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.input_img).then(response =>
+        if(this.state.input_img!==null) {
+            app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.input_img).then(response =>
                 this.displayFaceBox(this.calculateFaceLocation(response))).catch(
-        );
-        fetch(process.env.REACT_APP_SERVER_URL.concat('/image'),{
-            method:'PUT',
-            headers: {'Content-Type':'application/json'},
-            body: JSON.stringify({
-                id: this.state.user.id
-            })
-        }).then(response => response.json())
-            .then(
-            entries => {this.setState({user: {
-                    id: this.state.user.id,
-                    joined : this.state.user.joined,
-                    email: this.state.user.email,
-                    name: this.state.user.name,
-                    entries : entries
-            }})})
+            );
+            fetch(process.env.REACT_APP_SERVER_URL.concat('/image'), {
+                method: 'PUT',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    id: this.state.user.id
+                })
+            }).then(response => response.json())
+                .then(
+                    entries => {
+                        this.setState({
+                            user: {
+                                id: this.state.user.id,
+                                joined: this.state.user.joined,
+                                email: this.state.user.email,
+                                name: this.state.user.name,
+                                entries: entries
+                            }
+                        })
+                    })
+        }
+        else{
+
+        }
     }
     onRouteChange = (route) =>{
         if(route === 'home'){

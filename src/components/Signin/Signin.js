@@ -24,8 +24,8 @@ class Signin extends Component{
           })
       }).then(response=> response.json())
           .then(user => {
-             if(user[0].hasOwnProperty('name')){
-                 this.props.loadUser(user[0]);
+             if(user.hasOwnProperty('name')){
+                 this.props.loadUser(user);
                  this.props.onRouteChange('home');
              }
           });

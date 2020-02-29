@@ -87,7 +87,7 @@ class App extends Component{
     }
 
     onButtonSubmit = () =>{
-        if(this.state.input_img!==null) {
+        if(this.state.input_img.length > 3) {//jpg,png all image formats are longer than 3 digits
             app.models.predict(Clarifai.FACE_DETECT_MODEL, this.state.input_img).then(response =>
                 this.displayFaceBox(this.calculateFaceLocation(response))).catch(
             );

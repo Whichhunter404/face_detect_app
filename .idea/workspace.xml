@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d113152b-5f0b-4405-a625-0f14b7c84739" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Register/Register.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +27,7 @@
           <entry key="css" value="1" />
           <entry key="env" value="2" />
           <entry key="html" value="1" />
-          <entry key="js" value="3" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
         </counts>
       </usages-collector>
@@ -38,41 +37,44 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="3" />
           <entry key="html" value="18" />
-          <entry key="js" value="335" />
+          <entry key="js" value="351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="3" />
           <entry key="HTML" value="18" />
-          <entry key="JavaScript" value="335" />
+          <entry key="JavaScript" value="351" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="53" selection-start-column="21" selection-end-column="61" />
+            <state relative-caret-position="-926">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Rank/Rank.js">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state>
+              <caret column="53" selection-start-column="21" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -91,17 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Signin/Signin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="840">
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Register/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="293">
+              <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -159,6 +161,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>console</find>
+      <find>on</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,7 +265,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ENV&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/.env&#10;reg&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Register/Register.js&#10;nav&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Navigation/Navigation.js&#10;app&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/App.js&#10;html&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/public/index.html&#10;regi&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Register/Register.js" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/App.js&#10;ENV&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/.env&#10;reg&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Register/Register.js&#10;nav&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Navigation/Navigation.js&#10;html&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/public/index.html&#10;regi&#9;FILE&#9;file:///Users/whichhunter/Projects/face_detect_app/src/components/Register/Register.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -306,15 +309,16 @@
       <workItem from="1582744626779" duration="1535000" />
       <workItem from="1582837552954" duration="4828000" />
       <workItem from="1582922467689" duration="33000" />
-      <workItem from="1582922546807" duration="2068000" />
+      <workItem from="1582922546807" duration="2976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29006000" />
+    <option name="totallyTimeSpent" value="29914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -348,29 +352,10 @@
     <entry file="file://$PROJECT_DIR$/src/components/ImageLinkForm/ImageLinkForm.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Rank/Rank.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FaceRecognition/FaceRecognition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -419,17 +404,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FaceRecognition/FaceRecognition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Signin/Signin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="840">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Register/Register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="293">
+          <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

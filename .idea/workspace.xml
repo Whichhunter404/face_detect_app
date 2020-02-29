@@ -45,14 +45,14 @@
         <counts>
           <entry key="env" value="3" />
           <entry key="html" value="18" />
-          <entry key="js" value="334" />
+          <entry key="js" value="335" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="3" />
           <entry key="HTML" value="18" />
-          <entry key="JavaScript" value="334" />
+          <entry key="JavaScript" value="335" />
         </counts>
       </usages-collector>
     </session>
@@ -130,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Register/Register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -306,15 +306,16 @@
       <workItem from="1582744626779" duration="1535000" />
       <workItem from="1582837552954" duration="4828000" />
       <workItem from="1582922467689" duration="33000" />
-      <workItem from="1582922546807" duration="1392000" />
+      <workItem from="1582922546807" duration="1836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28330000" />
+    <option name="totallyTimeSpent" value="28774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16237482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -428,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Register/Register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>

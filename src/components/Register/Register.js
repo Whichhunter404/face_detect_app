@@ -18,7 +18,7 @@ class Register extends Component {
     onNameChange = (event) => {
         this.setState({registerName:event.target.value});
     }
-    onSubmitForm = (event) => {
+    onSubmitForm = () => {
         fetch(process.env.REACT_APP_SERVER_URL+'/register',{
             method: 'POST',
             headers: {'Content-type':'application/json'},
@@ -27,7 +27,14 @@ class Register extends Component {
                 email: this.state.registerEmail,
                 password: this.state.registerPassword,
             })
-        }).then(response => response.json()).catch(error =>console.log(error))
+        }).then(response => response.json()).then(
+            user => {
+                if(user.hasOwnProperty('name')) {
+                    this.props.loadUser(user);
+                    this.props.onRouteChange('home');
+                }
+            }
+        ).catch(error =>console.log(error))
     }
     render() {
         return(
